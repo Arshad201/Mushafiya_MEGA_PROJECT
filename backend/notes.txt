@@ -1,0 +1,6 @@
+Mistakes
+1. You're using app.use(cors()) but your cors import is commented.
+2. Give a proper messae when server is successfully running (Like => Server is running on the PORT: 4000)
+3. You're using un-necessary packages like copy to clipboard. Never install packages for small task, you should write your function of copy to clipboard
+4. Never use Empty input in form during development because we have to fill form again n again when project is completed you can remove values from useState({email: "", password:  ""})
+5. I don't like concurrently that's why i uninstalled, 
